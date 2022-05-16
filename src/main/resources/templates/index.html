@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>limino</title>
+</head>
+<body>
+    <p>Enter a tag from the list: study, meme, life.</p>
+    <form action="#" method="get" th:action="@{/view/submitTag}">
+        <p>Chosen tag: <input type="text" name="str"/></p>
+        <p><input type="submit" value="Find" /></p>
+    </form>
+</body>
+</html>
